@@ -1,0 +1,305 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto';
+	line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	font-weight: normal;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+}
+
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+/* ==== HEADER ==== */
+
+.header{
+	margin: auto;
+	padding-top: 45px;
+	padding-bottom: 63px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0;
+	z-index: 99;
+}
+
+.header-logo{
+	float: left;
+}
+
+/* ==== HEADER END ==== */
+
+/* ==== INNER ==== */
+
+.inner{
+	background: url(../img/inner-bg1.jpg) no-repeat center / cover;
+	padding-top: 130px;
+	padding-bottom: 90px;
+}
+
+/* ==== INNER END ==== */
+
+.flex-container{
+	display: flex;
+	margin: 0 auto;
+    max-width: 1035px;
+    padding: 0 15px;
+}
+
+.first-application{
+	align-self: flex-start;
+	margin: 106px 0 0 164px
+}
+
+/* ==== TITLE ==== */
+
+.title{
+	font-size: 38px;
+	font-weight: 700;
+	letter-spacing: .05em;	
+	text-transform: uppercase;
+}
+
+.title-dark{
+	font-size: 25px;
+	font-weight: 700;
+	color: #4c4f5f;
+	margin-bottom: 10px;
+}
+
+.title-facility,
+.title-application,
+.title-footer{
+	font-size: 20px;
+	margin-bottom: 12px;
+	letter-spacing: unset;
+	text-transform: none;
+}
+
+.title-application{
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+.title-footer{
+	color: #469ee0;
+	margin-bottom: 0;
+}
+
+/* ==== TITLE END ==== */
+
+/* DEFAULT CLASSES START */
+
+.default-text{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.text-dark{
+	color: #4c4f5f;
+}
+
+.text-light{
+	font-size: 38px;
+	letter-spacing: 0.03em;
+	font-weight: 300;
+	text-transform: none;
+}
+
+.text-medium{
+	font-weight: 500;
+}
+
+.text-bold{
+	font-weight: 700;
+}
+
+/* DEFAULT CLASSES END*/
+
+.first-application .title{
+	margin-bottom: 36px;
+}
+
+.first-application span{
+	display: block;
+}
+
+.btn-row a span{
+	display: inline-block;
+}
+
+.first-application span.default-text{
+	margin-top: 42px;
+}
+
+/* DEFAULT COMPONENT START */
+.btn{
+	width: 240px;
+	font-size: 16px;
+	font-weight: 500;
+    padding-bottom: 13px;
+	padding-top: 17px;
+	border-radius: 25px;
+	line-height: 1;
+}
+
+.btn-default{
+	color: #4c4f5f;
+	background: #fff;
+}
+
+a.btn-default:hover{
+	background: #e0a446;
+	color: #fff;
+}
+
+.btn-row{
+	margin-top: 43px;
+}
+
+.btn-row i.fa.fa-apple{
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+.btn.btn-small{
+	width: 151px;
+	padding-top: 11px;	
+	padding-bottom: 13px;
+}
+
+.btn-row a + a{
+	margin-left: 27px;
+}
+
+/* DEFAULT COMPONENT END */
+
+/* ==== Capabilities ==== */
+
+.capabilities{
+	background: url(../img/capabilities-bg.jpg) no-repeat center / cover;
+}
+
+.capabilities{
+	padding-top: 70px;
+	padding-bottom: 85px;
+}
+
+.section-content{
+	flex-direction: column;
+	margin-bottom: 80px;
+}
+
+.facility-information div.information + div.information {
+	margin-top: 40px;
+}
+
+.information span{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.information span.default-text{
+	padding-left: 45px;
+}
+
+.facility-information .information a.title-facility {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.information .title-facility span{
+	display: inline-block;
+}
+
+.information .title-facility img{
+	padding-right: 15px;
+}
+
+.facility-information .information a.title-facility:hover{
+	color: #e0a446;
+}
+
+.img-information{
+	margin-right: 12px;
+}
+
+.facility-information{
+	margin-right: 187px;
+}
+
+/* ==== Capabilities end ==== */
+
+/* ==== Property-price ==== */
+
+.property-price img{
+	margin-top: -100px;
+	margin-right: -100px;
+}
+
+/* ==== Property-price end ==== */
+
+
+/* ==== Application ==== */
+
+.application{
+	background: url(../img/inner-bg2.jpg) no-repeat center / cover;
+}
+
+.application{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.application .flex-container{
+	justify-content: center;
+}
+
+.application-content .title-application span.default-text.text-white{
+	display: block;
+	margin-top: 18px;
+	margin-bottom: 60px;
+}
+
+/* ==== Application end ==== */
+
+/* FOOTER */
+
+footer .flex-container{
+	justify-content: space-between;
+	padding-top: 75px;
+	padding-bottom: 40px;
+	align-items: flex-end;
+}
+
+.number-phone{
+	font-size: 20px;
+}
+
+/* FOOTER END */
